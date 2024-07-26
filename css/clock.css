@@ -1,0 +1,24 @@
+#clock {
+    height: 100%;
+    position: relative;
+}
+
+.clock-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.date {
+    position: absolute;
+    top: calc(40% - 200px);
+}
+
+.time {
+    font-size: 15rem;
+}
+
+.time > span, .date > span {
+    text-shadow: 0 0 3vw #fff;
+}
